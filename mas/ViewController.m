@@ -58,6 +58,7 @@
         make.height.equalTo(self.view3.mas_width).multipliedBy(0.5);
     }];
     
+    NSLog(@"第二次");
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
     [button setBackgroundImage:[UIImage imageNamed:@"babyAvatar"] forState:UIControlStateNormal];
     [self.view addSubview:button];
