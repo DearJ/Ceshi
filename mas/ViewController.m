@@ -59,6 +59,7 @@
     }];
     
     NSLog(@"第二次");
+    NSLog(@"第三次");
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
     [button setBackgroundImage:[UIImage imageNamed:@"babyAvatar"] forState:UIControlStateNormal];
     [self.view addSubview:button];
